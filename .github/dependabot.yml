@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    # You can change labels, reviewers, or add security-only updates if desired
+    labels:
+      - "dependencies"
+    # Optionally ignore updates (example shown commented out)
+    # ignore:
+    #   - dependency-name: "express"
+    #     versions: ["4.x"]
